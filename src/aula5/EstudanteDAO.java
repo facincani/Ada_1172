@@ -16,7 +16,7 @@ public class EstudanteDAO {
             Statement stmt = conn.createStatement();
             stmt.execute(sql);
         }catch (Exception e){
-            e.printStackTrace();
+            e.getMessage();
         }
     }
 
